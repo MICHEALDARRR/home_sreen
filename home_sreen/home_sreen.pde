@@ -30,20 +30,20 @@ void setup() {
   pt13Y = pt14Y = pt15Y = pt16Y= height*3/3;
   //
   //Button to illustrate arithmetic
-  button1X = width * 1/3 * 1/3; //Section 1, subsection 1
-  button1Y = height * 1/3 * 1/3; //Section 1, subsection 1
+  button1X = width * 1/3 * 1/3;
+  button1Y = height * 1/3 * 1/3;
   button1Width = width * 1/3 * 1/3;
   button1Height = height * 1/3 * 1/3;
   //
   //Button to illustrate arithmetic
-  button2X = width * 3/6; //Section 2, subsection 1: denominator is 3*2, numerator is counted
-  button2Y = height * 2/6 ; //Section 2, subsection 0: denominator is 3*2, numerator is counted
+  button2X = width * 3/6;
+  button2Y = height * 2/6 ;
   button2Width = width * 1/3 * 1/2;
   button2Height = height * 1/3 * 1/2;
   //
   //Button to illustrate arithmetic
-  button3X = width * 11/15; //Section 3, subsection 2: denominator is 3*5, numerator is counted
-  button3Y = height * 14/16; //Section 3, subsection 4: denominator is 3*5, numerator is counted
+  button3X = width * 11/15;
+  button3Y = height * 14/16;
   button3Width = width * 1/3 * 1/5;
   button3Height = height * 1/3 * 1/5;
 
@@ -105,7 +105,7 @@ void draw() {
     fill(black);
     rect(button4X, button4Y, button4Width, button4Height);
   }
-  fill(black); //Reset all IF-ELSE
+  fill(black);
   //
   ellipse(pt1X, pt1Y, ptDiameter, ptDiameter);
   ellipse(pt2X, pt2Y, ptDiameter, ptDiameter);
